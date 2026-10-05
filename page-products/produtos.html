@@ -21,6 +21,130 @@
     <title>Produtos</title>
 </head>
 <body>
-    
+    <nav id="navbar">
+            <div class="logo">
+                <img src="./assets/logo-navbar.png" alt="Logo do site">
+            </div>
+            <ul class="navegation">
+                <li><a href="#home">Início</a></li>
+                <li><a href="./page-products/produtos.html">Produtos</a></li>
+                <li><a href="#categories">Categorias</a></li>
+                <li><a href="#customize">Personalize</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+            <ul class="nav-perfil">
+                <li><svg xmlns="http://w3.org" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                        style="cursor: pointer; vertical-align: middle;">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg></i></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                        style="cursor: pointer; vertical-align: middle;">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg></li>
+                <li><svg xmlns="http://w3.org" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                        style="cursor: pointer; vertical-align: middle;">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg></li>
+            </ul>
+        </nav>
+
+        <section class="banner">
+            <div class="container-banner"><img src="#" alt="banner"></div>
+        </section>
+
+        <main>
+            <div class="continer">
+                <p>Inicio > Produtos</p>
+                <p>Ordernar por: </p>
+                <select name="" id="filtro">
+                    <option value="Mais Recentes">Mais Recentes</option>
+                </select>
+            </div>
+            
+            <section class="cotainer-products">
+                <section class="categorias">
+                    <div id="cont">
+                        <h3>Categorias</h3>
+                        <p>v</p>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="frases" id="frases">
+                        <p>Frases</p>
+                        <p id="quantidade">0</p>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="Divertidas" id="Divertidas">
+                        <p>Divertidas</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Minimalistas" id="Minimalistas">
+                        <p>Minimalistas</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Românticas" id="Românticas">
+                        <p>Românticas</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Personalizadas" id="Personalizadas">
+                        <p>Personalizadas</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Datas-Especiais" id="Datas-Especiais">
+                        <p>Datas Especiais</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Profissões" id="Profissões">
+                        <p>Profissões</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Família" id="Família">
+                        <p>Família</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Amizade" id="Amizade">
+                        <p>Amizade</p>
+                        <p id="quantidade">0</p>
+                    </div><div class="container-checkbox">
+                        <input type="checkbox" name="Natureza" id="Natureza">
+                        <p>Natureza</p>
+                        <p id="quantidade">0</p>
+                    </div>
+                </section>
+
+                <section class="preco">
+                    <div id="cont">
+                        <h3>Preço</h3>
+                        <p>v</p>
+                    </div>
+
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="30,00" id="ate30">
+                        <p>Até R$ 30,00</p>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="30,00-50,00" id="30a50">
+                        <p>R$ 30,00 - R$ 50,00</p>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="50,00-70,00" id="50a70">
+                        <p>R$ 50,00 - R$ 70,00</p>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" name="more" id="more">
+                        <p>Acima de R$ 70,00</p>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        
 </body>
 </html>
