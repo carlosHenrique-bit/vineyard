@@ -20,7 +20,8 @@ A página inicial já possui uma estrutura visual, enquanto a página de produto
 
 o projeto esta hosteado em uma plataforma
 acesse:
+https://vineyard-iota.vercel.app/
 
-## 👨‍💻 Desenvolvedor
+##Desenvolvedor
 
 [Carlos Henrique](https://github.com/carlosHenrique-bit)
